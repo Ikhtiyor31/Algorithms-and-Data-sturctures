@@ -1,0 +1,7 @@
+// maintain a set of processed nodes 
+// assign all nodes with distances values = infinity except source node (0)
+// repeat these actions until all vertices are included 
+// 1. pick min vertex value which is not already processed
+// 2. include this selected node in processed set
+// 3. update all the adjecent node distances.
+// if new_distance < old_distance then update it otherwise skip it 
