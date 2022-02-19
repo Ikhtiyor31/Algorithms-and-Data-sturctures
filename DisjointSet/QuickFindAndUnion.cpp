@@ -1,9 +1,17 @@
-#include <bits/stdc++.h>
 
+		/*
+
+			author: Ikhtiyor
+			created: 2022/02/20
+
+		*/
+
+
+#include <bits/stdc++.h>
 
 using namespace std;
 
-
+	
 class UnionFind {
 
 public:
@@ -61,7 +69,7 @@ public:
  	void unionSet(int x, int y) {
  		int rootX = find(x);
  		int rootY = find(y);
- 		if (rootX != rootX) {
+ 		if (rootX != rootY) {
  			root[rootX] = rootY;
  		}
  	}
@@ -115,8 +123,16 @@ int main() {
     uf.unionSet(9, 4);
     cout << uf2.connected(4, 9) << endl;  // true
 
-    	// |               Union-find2 Constructor	Find	Union	Connected
-		// Time Complexity	O(N)					O(N)	O(N)		O(N)
+    /*
+
+	Time Complexity
+	----------------------------------------------------------------------
+	| 					Union-find Constructor	Find	Union	Connected |
+	| Time Complexity	O(N)					O(N)	O(N)	O(N)	  |	
+	-----------------------------------------------------------------------
+    */
+
+
 
 	return 0;
 }
