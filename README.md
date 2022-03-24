@@ -1,1 +1,1 @@
-This section has solutions of Algorithm and Data structures in C++ languages with written codes and explanations
+This section has solutions of Algorithm and Data structures with codes and explanations written in c++ language
